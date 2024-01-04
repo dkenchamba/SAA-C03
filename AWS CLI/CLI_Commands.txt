@@ -1,0 +1,12 @@
+aws configure
+# specify the 'AWS Access Key ID', 'AWS Secret Access Key' & 'Default region name'
+
+TRIANZ+Deepak.Kenchamba@TRI02L-PW03CS0F MINGW64 /d/myWorkspace/SAA-C03 (main)
+$ aws configure
+	AWS Access Key ID [****************ZEML]:
+	AWS Secret Access Key [****************UXU+]:
+	Default region name [ap-south-1]:
+	Default output format [None]:
+
+# Test the configuration - this should not error out; instead should list your S3 bucket list
+$ aws s3 ls
